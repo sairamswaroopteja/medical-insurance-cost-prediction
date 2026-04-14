@@ -24,21 +24,19 @@ insurance_project/
 ## Installation
 
 1. Create Virtual Environment
-python -m venv venv
+ python -m venv venv
 2. Activate Environment
-
-Windows:
-
-venv\Scripts\activate
-
-Mac/Linux:
-
-source venv/bin/activate
+ Windows:
+  venv\Scripts\activate
+ 
+ Mac/Linux:
+  source venv/bin/activate
 
 3. Install Dependencies
-pip install -r requirements.txt
+ pip install -r requirements.txt
 
 How to Run
+
  Step 1: Train Models & Generate Results
     python run_pipeline.py
 
