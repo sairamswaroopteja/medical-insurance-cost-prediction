@@ -1,0 +1,7 @@
+Model,Default_RMSE,Tuned_RMSE,Improvement,MAE,R2,CV_RMSE_Mean,CV_RMSE_Std,Best_Params,Tuning_Time_s,Default_Time_s
+RandomForest,4425.32,4263.45,161.88,1995.81,0.9011,0.42,0.03,"{'n_estimators': 300, 'min_samples_split': 10, 'max_depth': 5}",30.9,0.3
+AdaBoost,4525.32,4486.6,38.73,2460.44,0.8905,0.48,0.03,"{'n_estimators': 50, 'learning_rate': 0.01, 'estimator': DecisionTreeRegressor(max_depth=3)}",7.4,0.0
+KNN,4427.06,4596.2,-169.13,2131.23,0.885,0.43,0.02,"{'metric': 'euclidean', 'n_neighbors': 20, 'weights': 'distance'}",1.4,0.0
+Ridge,7991.13,7991.13,0.0,4155.54,0.6525,0.44,0.04,{'alpha': 1},0.2,0.0
+LinearRegression,8035.71,8035.71,0.0,4197.77,0.6486,0.44,0.04,default,0.0,0.0
+Lasso,14588.49,8320.34,6268.15,4171.19,0.6233,0.91,0.03,{'alpha': 0.001},0.1,0.0
