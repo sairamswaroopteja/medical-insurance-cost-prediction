@@ -26,6 +26,7 @@ insurance_project/
 1. Create Virtual Environment
  python -m venv venv
 2. Activate Environment
+ 
  Windows:
   venv\Scripts\activate
  
@@ -33,6 +34,7 @@ insurance_project/
   source venv/bin/activate
 
 3. Install Dependencies
+
  pip install -r requirements.txt
 
 How to Run
